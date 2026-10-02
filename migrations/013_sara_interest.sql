@@ -1,0 +1,1 @@
+INSERT INTO user_interests(user_id,interest_id) SELECT 'demo-sara',id FROM interests WHERE name='AI' ON CONFLICT DO NOTHING
