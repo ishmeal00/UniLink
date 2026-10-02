@@ -1,0 +1,1 @@
+INSERT INTO user_goals(user_id,goal_id) SELECT 'demo-ahmed',id FROM goals WHERE name='Project Partner' ON CONFLICT DO NOTHING
