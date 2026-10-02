@@ -1,0 +1,1 @@
+INSERT INTO user_skills(user_id,skill_id) SELECT 'demo-sara',id FROM skills WHERE name IN ('Python','Web Development') ON CONFLICT DO NOTHING
